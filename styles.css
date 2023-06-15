@@ -8,4 +8,14 @@ body {
 }
 .page-header {
   background-color: bisque;
+  text-align: center;
+}
+.site-navigation {
+  background-color: black;
+}
+.site-navigation a {
+  display: inline-block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
 }
