@@ -26,11 +26,27 @@ body {
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding-top: 12em;
+  box-sizing: border-box;
+}
+.about-banner {
+  background-color: lightpink;
+  min-height: 70vh;
+  background-image: url("images/daniel-jerez-CD4WHrWio6Q-unsplash.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 12em;
+  box-sizing: border-box;
 }
 .banner-text {
-  margin: 0;
   text-align: center;
-  padding-top: 20vh;
+  /* display: inline-block; */
+  background-color: #d44457;
+  color: #efefef;
+  margin: auto;
+  max-width: 30%;
+  padding: 0.5em;
 }
 
 .content {
