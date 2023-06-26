@@ -41,6 +41,16 @@ body {
   padding-top: 12em;
   box-sizing: border-box;
 }
+.contact-banner {
+  background-color: lightpink;
+  min-height: 60vh;
+  background-image: url("images/pavan-trikutam-71CjSSB83Wo-unsplash.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 12em;
+  box-sizing: border-box;
+}
 .banner-text {
   text-align: center;
   /* display: inline-block; */
@@ -78,4 +88,21 @@ body {
 }
 .social a:hover{
   color: #efefef;
+}
+/* contact form */
+#contact-form {
+  max-width: 60%;
+}
+
+#contact-form label {
+  display: block;
+}
+
+#contact-form .input {
+  min-width: 100%;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
 }

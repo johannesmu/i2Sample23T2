@@ -1,1 +1,66 @@
-Contact
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/heart-icon-y1k.png" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="page-header">
+      <a href="index.html" class="logo-link">
+        <img class="logo" src="images/heart-logo.png" alt="heart logo">
+      </a>
+      <nav class="site-navigation">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <div class="contact-banner">
+      <h1 class="banner-text">Get in touch with us</h1>
+    </div>
+    <main class="content">
+      <h2>Contact Us</h2>
+      <form id="contact-form" method="get" action="https://example.com">
+        <!-- ask the user for their name -->
+        <label for="username">Your name</label>
+        <input class="input" type="text" name="username" id="username" placeholder="Jane Smith">
+        <!-- ask the user for their email address -->
+        <label for="useremail">Your email address</label>
+        <input class="input" type="email" name="useremail" id="useremail" placeholder="jane@example.com">
+        <label for="usermessage">Your message</label>
+        <textarea class="input" id="usermessage" name="usermessage" rows="5" cols="30" placeholder="Hey there!"></textarea>
+        <button type="reset">Cancel</button>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+    <footer class="main-footer">
+      <nav class="social">
+        <a href="https://facebook.com/page">
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://linkedin.com/page">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://instagram.com/page">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a href="https://pinterest.com/page">
+          <i class="fa-brands fa-square-pinterest"></i>
+        </a>
+        <a href="https://twitter.com/profile">
+          <i class="fa-brands fa-square-twitter"></i>
+        </a>
+      </nav>
+      <p class="copyright">
+        &copy; Johannes 2023
+      </p>
+    </footer>
+  </body>
+</html>
