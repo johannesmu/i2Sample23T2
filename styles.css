@@ -1,6 +1,8 @@
 body {
   background-color: lightblue;
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .logo {
   width: 90px;
@@ -47,6 +49,7 @@ body {
   margin: auto;
   max-width: 30%;
   padding: 0.5em;
+  font-family: 'Kablammo', cursive;
 }
 
 .content {
