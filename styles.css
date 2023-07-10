@@ -92,6 +92,7 @@ body {
 /* contact form */
 #contact-form {
   max-width: 60%;
+  margin: auto;
 }
 
 #contact-form label {
