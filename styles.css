@@ -10,7 +10,12 @@ body {
 }
 .page-header {
   background-color: bisque;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
 .site-navigation {
   background-color: black;
