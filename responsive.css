@@ -5,4 +5,8 @@
     .site-navigation {
         min-width: 100%;
     }
+    .content {
+        grid-template-columns: 1fr;
+        margin: 1em 0.5em;
+    }
 }
