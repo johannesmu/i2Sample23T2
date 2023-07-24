@@ -28,13 +28,15 @@ body {
 }
 .home-banner {
   background-color: lightpink;
-  min-height: 70vh;
+  min-height: 50vh;
   background-image: url("images/markus-spiske-ltuGEjXss_c-unsplash.jpg");
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 12em;
+  /* padding-top: 12em; */
   box-sizing: border-box;
+  display: grid;
+  place-items: center;
 }
 .about-banner {
   background-color: lightpink;
@@ -43,8 +45,10 @@ body {
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 12em;
+  /* padding-top: 12em; */
   box-sizing: border-box;
+  display: grid;
+  place-items: center;
 }
 .contact-banner {
   background-color: lightpink;
@@ -53,8 +57,10 @@ body {
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 12em;
+  /* padding-top: 12em; */
   box-sizing: border-box;
+  display: grid;
+  place-items: center;
 }
 .banner-text {
   text-align: center;
@@ -70,6 +76,16 @@ body {
 .content {
   max-width: 1000px;
   margin: 1em auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+.card-image {
+  max-width: 100%;
+  display: block;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: center;
 }
 
 .main-footer {
