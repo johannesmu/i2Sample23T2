@@ -9,7 +9,7 @@ body {
   padding: 10px;
 }
 .page-header {
-  background-color: bisque;
+  background-color: #af9e89;
   /* text-align: center; */
   display: flex;
   flex-direction: row;
@@ -18,7 +18,7 @@ body {
   flex-wrap: wrap;
 }
 .site-navigation {
-  background-color: black;
+  /* background-color: black; */
 }
 .site-navigation a {
   display: inline-block;
@@ -127,4 +127,41 @@ body {
   box-sizing: border-box;
   border: 1px solid #cccccc;
   border-radius: 4px;
+}
+
+.slide {
+  min-height: 50vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16/6;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.one {
+  background-color: #48c3eb;
+  position: relative;
+}
+.one iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.two {
+  background-color: turquoise;
+  background-image: url("images/pexels-pavel-bondarenko-2856273.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.three {
+  background-color: lightgreen;
+  position: relative;
+}
+.three iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }

@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </head>
   <body>
     <header class="page-header">
@@ -24,9 +26,20 @@
         <a href="about.html">About</a>
       </nav>
     </header>
-    <div class="home-banner">
-      <h1 class="banner-text">Welcome to my website!</h1>
+    <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+      <div class="slide one">
+        <iframe src="https://www.youtube.com/embed/eW5MdE3ZcAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="slide two">
+        
+      </div>
+      <div class="slide three">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pBk4NYhWNMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
     </div>
+    <!-- <div class="home-banner">
+      <h1 class="banner-text">Welcome to my website!</h1>
+    </div> -->
     <main class="content">
       <div class="card">
         <img class="card-image" src="images/pexels-bimal-ranabhat-2104882.jpg" alt="nepal">
