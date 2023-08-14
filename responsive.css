@@ -37,6 +37,11 @@
         min-width: 100%;
         display: flex;
         flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+    }
+    .site-navigation.open {
+        max-height: 50vh;
     }
     .nav-button {
         display: block;
