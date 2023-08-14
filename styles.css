@@ -17,8 +17,17 @@ body {
   align-items: flex-end;
   flex-wrap: wrap;
 }
-.site-navigation {
-  /* background-color: black; */
+.nav-button {
+  font-size: 20pt;
+  color: #333333;
+  padding: 0.3em;
+  width: 2em;
+  height: 2em;
+  border-color: transparent;
+  border-radius: 10%;
+  background-color: hsla(0, 0%, 80%, 0.502);
+  margin-right: 10px;
+  display: none;
 }
 .site-navigation a {
   display: inline-block;
@@ -90,6 +99,16 @@ body {
   text-align: center;
   margin: 0;
   padding: 15px;
+}
+.references {
+  color: #efefef;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+.references a {
+  color:#efefef;
+  text-decoration: none;
 }
 .social {
   text-align: center;
